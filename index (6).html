@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Proyectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Proyectos de clase</h1>
+  <form id="formproyectos">
+    <input type="text" id="nombre" placeholder="Nombre del Proyecto" required>
+    <input type="datetime-local" id="fechaHora" required>
+    <input type="text" id="motivo" placeholder="Asignatura" required>
+    <input type="tel" id="telefono" placeholder="Maestro" required>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <div id="proyectos"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
